@@ -484,7 +484,7 @@ function App() {
             <section>
               <header>
                 <h2>Get in touch</h2>
-                <span class="byline">思聚國際企業有限公司</span><p>新北市永和區中和路423號3樓 </p><p>電語：(02)2231-0266</p><p>傳真：(02)2231-0098</p><span class="byline">SAGE Global Co.,Ltd.</span><p> 3F., No.423, Zhonghe Rd., Yonghe Dist., New Taipei City 234, Taiwan(R.O.C.)</p><p>Tel:886-2-2231-0266</p><p>Fax:886-2-2231-0098</p>
+                <span class="byline">思聚國際企業有限公司</span><p>新北市永和區中和路423號3樓 </p><p>電話：(02)2231-0266</p><p>傳真：(02)2231-0098</p><span class="byline">SAGE Global Co.,Ltd.</span><p> 3F., No.423, Zhonghe Rd., Yonghe Dist., New Taipei City 234, Taiwan(R.O.C.)</p><p>Tel:886-2-2231-0266</p><p>Fax:886-2-2231-0098</p>
               </header>
             </section>
           </div>
@@ -540,7 +540,7 @@ function App() {
             <section>
               <header>
                 <h2>Get in touch</h2>
-                <span class="byline">思聚國際企業有限公司</span><p>新北市永和區中和路423號3樓 </p><p>電語：(02)2231-0266</p><p>傳真：(02)2231-0098</p><span class="byline">SAGE Global Co.,Ltd.</span><p> 3F., No.423, Zhonghe Rd., Yonghe Dist., New Taipei City 234, Taiwan(R.O.C.)</p><p>Tel:886-2-2231-0266</p><p>Fax:886-2-2231-0098</p>
+                <span class="byline">思聚國際企業有限公司</span><p>新北市永和區中和路423號3樓 </p><p>電話：(02)2231-0266</p><p>傳真：(02)2231-0098</p><span class="byline">SAGE Global Co.,Ltd.</span><p> 3F., No.423, Zhonghe Rd., Yonghe Dist., New Taipei City 234, Taiwan(R.O.C.)</p><p>Tel:886-2-2231-0266</p><p>Fax:886-2-2231-0098</p>
               </header>
                 
             </section>
@@ -598,7 +598,7 @@ function App() {
             <section>
               <header>
                 <h2>Get in touch</h2>
-                <span class="byline">思聚國際企業有限公司</span><p>新北市永和區中和路423號3樓 </p><p>電語：(02)2231-0266</p><p>傳真：(02)2231-0098</p><span class="byline">SAGE Global Co.,Ltd.</span><p> 3F., No.423, Zhonghe Rd., Yonghe Dist., New Taipei City 234, Taiwan(R.O.C.)</p><p>Tel:886-2-2231-0266</p><p>Fax:886-2-2231-0098</p>
+                <span class="byline">思聚國際企業有限公司</span><p>新北市永和區中和路423號3樓 </p><p>電話：(02)2231-0266</p><p>傳真：(02)2231-0098</p><span class="byline">SAGE Global Co.,Ltd.</span><p> 3F., No.423, Zhonghe Rd., Yonghe Dist., New Taipei City 234, Taiwan(R.O.C.)</p><p>Tel:886-2-2231-0266</p><p>Fax:886-2-2231-0098</p>
               </header>
                 
             </section>
@@ -669,7 +669,7 @@ function App() {
           <section>
             <header>
               <h2>Get in touch</h2>
-              <span class="byline">思聚國際企業有限公司</span><p>新北市永和區中和路423號3樓 </p><p>電語：(02)2231-0266</p><p>傳真：(02)2231-0098</p><span class="byline">SAGE Global Co.,Ltd.</span><p> 3F., No.423, Zhonghe Rd., Yonghe Dist., New Taipei City 234, Taiwan(R.O.C.)</p><p>Tel:886-2-2231-0266</p><p>Fax:886-2-2231-0098</p>
+              <span class="byline">思聚國際企業有限公司</span><p>新北市永和區中和路423號3樓 </p><p>電話：(02)2231-0266</p><p>傳真：(02)2231-0098</p><span class="byline">SAGE Global Co.,Ltd.</span><p> 3F., No.423, Zhonghe Rd., Yonghe Dist., New Taipei City 234, Taiwan(R.O.C.)</p><p>Tel:886-2-2231-0266</p><p>Fax:886-2-2231-0098</p>
               </header>
             
           </section>
@@ -773,7 +773,7 @@ function App() {
             <section>
               <header>
                 <h2>Get in touch</h2>
-                <span class="byline">思聚國際企業有限公司</span><p>新北市永和區中和路423號3樓 </p><p>電語：(02)2231-0266</p><p>傳真：(02)2231-0098</p><span class="byline">SAGE Global Co.,Ltd.</span><p> 3F., No.423, Zhonghe Rd., Yonghe Dist., New Taipei City 234, Taiwan(R.O.C.)</p><p>Tel:886-2-2231-0266</p><p>Fax:886-2-2231-0098</p>
+                <span class="byline">思聚國際企業有限公司</span><p>新北市永和區中和路423號3樓 </p><p>電話：(02)2231-0266</p><p>傳真：(02)2231-0098</p><span class="byline">SAGE Global Co.,Ltd.</span><p> 3F., No.423, Zhonghe Rd., Yonghe Dist., New Taipei City 234, Taiwan(R.O.C.)</p><p>Tel:886-2-2231-0266</p><p>Fax:886-2-2231-0098</p>
               </header>
               
             </section>
