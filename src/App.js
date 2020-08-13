@@ -3,7 +3,7 @@ import React, { useState ,Component} from 'react'
 
 /////////////////////DATA FIELD//////////////////////////////////////////
 /*跑馬燈文字(不要用 ` 符號)*/
-const marquee=`Welcome to Sage's homepage.`;
+const marquee=`新網頁上線全面特價供應中；本期特價商品SDC ISO DW附布，每米NT$85。詳洽本公司！`;
 
 /*  ['中文','英文','簡介',[標準],[圖片位置]],   */
 //檢驗儀器設備
