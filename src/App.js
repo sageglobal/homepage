@@ -34,7 +34,7 @@ const marquee=`Welcome to Sage's homepage. 新網頁上線全面特價供應中�
   ['滾筒快速式耐磨試驗機','Acceleroter-type Abrasion Tester','利用攪拌翼快速的旋轉，使織物與槽內壁產生摩擦，來測試織物重量及強度的改變情形。',['AATCC 93','M&S P26'],['images/tp/SGT-39.gif']],
   ['織物摩擦帶電試驗機','Rotary Static Tester','機能性檢測，測試織物與標準布摩擦後的帶電量，並記錄測試期間電量值之變化。',['JIS L 1094'],['images/tp/SGT-15-1.gif','images/tp/SGT-15-2.gif']],
   ['VERIVIDE 多光源標準對色燈','Verivide Color Match Cabinet','木製機台，耐酸鹼、防腐蝕，全機台英國製造，提供D65、TL84、UVB、F、CWF等多種光源選擇。為Adidas及M&S指定對色用機台。',[],['images/op/SGO-6.jpg']],
-  ['VERIVIDE 評級觀察箱','Pilling Assessment Viewer','提供標準光源及標準視角，配合標準評級圖來判定被測物之測試等級。',['BS 5811','ASTM D 5312','Martindale Method'],['images/tp/SGT-16.gif']],
+  ['VERIVIDE 評級觀察箱','Pilling Assessment Viewer','提供標準光源及標準視角，配合標準評級圖來判定被測物之測試等級。',['BS 5811','ASTM D 3512','Martindale Method'],['images/tp/SGT-16.gif']],
   ['平面摩擦牢度試驗機','Crock Meter','往復平面式摩擦，來測試織物摩擦色牢度等級。',['ISO 105 X12','ISO D 02','AATCC 8','AATCC 165'],['images/tp/SGT-17.gif','images/tp/Motorised_Crocktec.png']],
   ['JIS摩擦色牢度試驗機','Dyeing Rubbing Tester','圓弧型測試座，配合輔助荷重可測試織物乾式及濕式之摩擦色牢度',['JIS L 0801','JIS L 0823','JIS L 0849','JIS L 1006','JIS L 1084'],['images/tp/SGT-18.gif']],
   ['潑水度試驗機(雨淋法)','Bundesmann Water Repellency Tester','模擬下雨原理，測試織物之防水等級',['ISO 9865'],['images/tp/SGT-19.gif']],
