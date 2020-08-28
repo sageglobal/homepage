@@ -3,7 +3,7 @@ import React, { useState ,Component} from 'react'
 
 /////////////////////DATA FIELD//////////////////////////////////////////
 /*跑馬燈文字(不要用 ` 符號)*/
-const marquee=`Welcome to Sage's homepage. 新網頁上線全面特價供應中！ 本期特價商品SDC ISO DW附布，詳情請來電洽詢，謝謝！  `;
+const marquee=`Welcome to Sage's homepage. 新網頁上線全面特價供應中！ 本期特價商品黃化試驗組，詳情請來電洽詢，謝謝！  `;
 
 /*  ['中文','英文','簡介',[標準],[圖片位置]],*/
 //檢驗儀器設備
@@ -15,9 +15,9 @@ const marquee=`Welcome to Sage's homepage. 新網頁上線全面特價供應中�
   ['DURAWASH 程控式印花牢度試驗機','DURAWASH The Original Print Durability Tester','內建程式，有單槽及雙槽可供選擇。',['ARCADIA GROUP','BS 7907','CEN TR 16792','M&S C15','M&S P5','M&S P6','M&S P7','M&S P69','NEXT TM8'],['images/tp/DSC_0214.jpg','images/tp/Durawash_&_Plus.jpg']],
   ['OPTI-DRY 標準實驗室乾衣機','OPTI-DRY Laboratory Tumble Dryer','符合各式標準，精確的溫度控制，簡單易操作，乾衣容量5kg。',["ISO 6330","ISO 26330","AATCC 135"],["images/tp/Opti-Dry.png"]],  
   ['Wascator程控式水洗縮率試驗機','Wascator Washer-Extractor','微電腦控制，晶片卡內建標準洗程，操作簡單，最高達999次洗衣行程設定。',["ISO 5077","ISO 6330"],["images/tp/SGT-4.jpg"]],
-  ['Miele洗衣機','Miele Washing Machine','PW6055系列可程式設定，操作簡單，符合Nike、adidas、PUMA等各品牌規範。',['ISO 6330'],["images/tp/SGT-33.gif"]],
-  ['AATCC洗衣機','AATCC Washing Machine','AATCC 推薦使用。符合AATCC M6-2018標準。',['AATCC 88B','AATCC 88C','AATCC 124','AATCC 135','AATCC 143','AATCC 150','NIKE'],['images/tp/LABTEX-M6-1.jpg','images/tp/LABTEX-M6-2.jpg']],
-  ['AATCC乾衣機','AATCC Drying Machine','AATCC 推薦使用。符合AATCC M6-2018標準。',['AATCC 124','AATCC 135','AATCC 143','AATCC 150','AATCC 172','AATCC 179','AATCC 188','NIKE'],['images/tp/LABTEX-M6D-1.jpg','images/tp/LABTEX-M6D-2.jpg']],
+  ['Miele洗衣機','Miele Washing Machine','Professional系列可程式設定，操作簡單，符合Nike、adidas、PUMA等各品牌規範。',[],["images/tp/SGT-33.gif"]],
+  ['AATCC洗衣機','AATCC Washing Machine','AATCC 推薦使用。符合AATCC M6-2018標準。',['AATCC 88B','AATCC 88C','AATCC 124','AATCC 135','AATCC 143','AATCC 150','NIKE'],['images/tp/LABTEX-M6-1.jpg','images/tp/LABTEX-M6-2.jpg','images/tp/aatccwashinfo.png']],
+  ['AATCC乾衣機','AATCC Drying Machine','AATCC 推薦使用。符合AATCC M6-2018標準。',['AATCC 124','AATCC 135','AATCC 143','AATCC 150','AATCC 172','AATCC 179','AATCC 188','NIKE'],['images/tp/LABTEX-M6D-1.jpg','images/tp/LABTEX-M6D-2.jpg','images/tp/aatccdryerinfo.png']],
   ['氣冷式氙弧光耐光耐候試驗機','Xenon Arc Light and Weathering Fastness Tester','觸控面板，氣冷式冷卻設計，內建操作規範，操作簡便。',['ISO 105 B02','ISO 105 B04','M&S C9','M&S C9A'],['images/tp/SGT-5.gif']],
   ['簡易型耐光試驗機','Light Fastness Tester','利用500W鎢絲燈模擬日光照射，測試織物的耐光牢度。',["BS 1006 UK/TN"],['images/tp/SGT-6.gif']],
   ['乾洗試驗機','Dry Cleaning Tester','測試織物乾洗色牢度及耐氯水洗試驗，並可做為防火試驗之前處理設備。',['AATCC 162'],['images/tp/SGT-7.gif']],
@@ -33,6 +33,7 @@ const marquee=`Welcome to Sage's homepage. 新網頁上線全面特價供應中�
   ['ASTM特殊織物摩擦試驗機','Wyzenbeek','利用被測物與鐵網的摩擦，藉以評定摩擦等級，適用於家飾布、皮革、汽車內裝等摩擦試驗。',['ASTM D 4157'],['images/tp/SGT-35.gif']],
   ['滾筒快速式耐磨試驗機','Acceleroter-type Abrasion Tester','利用攪拌翼快速的旋轉，使織物與槽內壁產生摩擦，來測試織物重量及強度的改變情形。',['AATCC 93','M&S P26'],['images/tp/SGT-39.gif']],
   ['織物摩擦帶電試驗機','Rotary Static Tester','機能性檢測，測試織物與標準布摩擦後的帶電量，並記錄測試期間電量值之變化。',['JIS L 1094'],['images/tp/SGT-15-1.gif','images/tp/SGT-15-2.gif']],
+  ['VERIVIDE 多光源標準對色燈','Verivide Color Match Cabinet','木製機台，耐酸鹼、防腐蝕，全機台英國製造，提供D65、TL84、UVB、F、CWF等多種光源選擇。為Adidas及M&S指定對色用機台。',[],['images/op/SGO-6.jpg']],
   ['VERIVIDE 評級觀察箱','Pilling Assessment Viewer','提供標準光源及標準視角，配合標準評級圖來判定被測物之測試等級。',['BS 5811','ASTM D 5312','Martindale Method'],['images/tp/SGT-16.gif']],
   ['平面摩擦牢度試驗機','Crock Meter','往復平面式摩擦，來測試織物摩擦色牢度等級。',['ISO 105 X12','ISO D 02','AATCC 8','AATCC 165'],['images/tp/SGT-17.gif','images/tp/Motorised_Crocktec.png']],
   ['JIS摩擦色牢度試驗機','Dyeing Rubbing Tester','圓弧型測試座，配合輔助荷重可測試織物乾式及濕式之摩擦色牢度',['JIS L 0801','JIS L 0823','JIS L 0849','JIS L 1006','JIS L 1084'],['images/tp/SGT-18.gif']],
@@ -73,7 +74,6 @@ const marquee=`Welcome to Sage's homepage. 新網頁上線全面特價供應中�
   ['壓吸試驗機','Padder','氣壓式設計，壓力分佈均勻，速度及壓力可依需求調整。',[],['images/op/SGO-3.gif']],
   ['電動塗佈試驗機','Auto Printing Machine','採用電動式刮漿，刮刀角度及刮刀厚度可以調整，可得到均勻且平整的塗層效果。',[],['images/op/SGO-4.gif']],
   ['自記式溫濕度記錄器','HYGROTHERMOGRAPH','毛髮式設計，感應度高，可選擇紀錄1日及1周。',[],['images/op/SGO-5.gif']],
-  ['VERIVIDE 多光源標準對色燈','Verivide Color Match Cabinet','木製機台，耐酸鹼、防腐蝕，全機台英國製造，提供D65、TL84、UVB、F、CWF等多種光源選擇。為Adidas及M&S指定對色用機台。',[],['images/op/SGO-6.jpg']],
   ['VERIVIDE 45度觀察斜板','Fix Angel Table','備有GREY 5574及N7兩種表面漆可供選擇。',[],['images/op/SGO-22.jpg']],
   ['耐汗染色堅牢度試驗機','Perspirometer','測試織物的耐汗、耐氯、耐海水染色堅牢度，本機台可同時提供ISO/AATCC等規範要求。',['ISO 105','AATCC 15','AATCC 106','AATCC 107','AATCC 165'],['images/op/SGO-7.GIF']],
   ['水平震盪試驗機','Dyeing Shaking Tester','往復式運轉供6、12、24杯位機台選擇，另有各種夾具盤可互換。',[],['images/op/SGO-8.gif']],
