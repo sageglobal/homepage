@@ -3,7 +3,7 @@ import React, { useState ,Component} from 'react'
 
 /////////////////////DATA FIELD//////////////////////////////////////////
 /*跑馬燈文字(不要用 ` 符號)*/
-const marquee=`Welcome to Sage's homepage. 新網頁上線全面特價供應中！ 本期特價商品黃化試驗組，詳情請來電洽詢，謝謝！  `;
+const marquee=`Welcome to Sage's homepage. 新網頁上線全面特價供應中！ 本期特價商品快速起毬試驗機耗材組，詳情請來電洽詢，謝謝！  `;
 
 /*  ['中文','英文','簡介',[標準],[圖片位置]],*/
 //檢驗儀器設備
