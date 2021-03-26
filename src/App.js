@@ -3,7 +3,7 @@ import React, { useState ,Component} from 'react'
 
 /////////////////////DATA FIELD//////////////////////////////////////////
 /*跑馬燈文字(不要用 ` 符號)*/
-const marquee=`Welcome to Sage's homepage. Nike #10A水洗附布/Miele PW6055/6065 保養、校正與程式設定，全套優惠中。詳情請來電洽詢，謝謝！  `;
+const marquee=`Welcome to Sage's homepage. 本期特價商品：Nike #10A水洗附布/Miele PW6055/6065 保養、校正與程式設定，全套優惠中。詳情請來電洽詢，謝謝！  `;
 
 
 /*  ['中文','英文','簡介',[標準],[圖片位置]],*/
