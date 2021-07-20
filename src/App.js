@@ -3,7 +3,7 @@ import React, { useState ,Component} from 'react'
 
 /////////////////////DATA FIELD//////////////////////////////////////////
 /*跑馬燈文字(不要用 ` 符號)*/
-const marquee=`Welcome to Sage's homepage. 6/28～6/30三日快閃專案：DALO marker黃色/黑色專用漆筆。詳情來電洽詢，謝謝！ `;
+const marquee=`Welcome to Sage's homepage. 七月精選優惠，ISO DW水洗附布。詳情來電洽詢，謝謝！ `;
 
 
 /*  ['中文','英文','簡介',[標準],[圖片位置]],*/
