@@ -11,8 +11,8 @@ import marquee from './marquee'
   ['AATCC M6(T)洗衣機','AATCC Washing Machine','AATCC 推薦使用。',['AATCC 88B','AATCC 88C','AATCC 124','AATCC 135','AATCC 143','AATCC 150','AATCC LP1-2021'],['images/sp/LBT-M6.jpg','images/sp/LABTEX-M6-2.jpg','images/sp/LBT-M6 (2023).jpg']],
   ['AATCC M6D乾衣機','AATCC Drying Machine','AATCC 推薦使用。',['AATCC 124','AATCC 135','AATCC 143','AATCC 150','AATCC 172','AATCC 179','AATCC 188'],['images/sp/LBT-M6D.png','images/sp/LABTEX-M6D-2.jpg','images/sp/aatccdryerinfo.png']],
   ['ISO M8洗衣機','ISO washing machine','歐洲原裝機台，觸控式螢幕設計，無須插卡，內建ISO等26個洗程，可自編程式，滿足連續洗、耐久洗等洗衣方式。',['ISO 6330-2021','ISO 19954-2003','AATCC IVA, IVB','DS-034','GB T8629-2017','GB T8630-2013','GB T17596'],['images/sp/LBT-M8.jpg','images/sp/LBT-M8-2.jpg','images/sp/LBT-M8-3.jpg']],
-  ['Wascator程控式水洗縮率試驗機','Wascator Washer-Extractor','微電腦控制，晶片卡內建標準洗程，操作簡單，最高達999次洗衣行程設定。',["ISO 5077","ISO 6330"],["images/sp/wascator2023.jpg"]],
-  ['OPTI-DRY 標準實驗室乾衣機','OPTI-DRY Laboratory Tumble Dryer','符合各式標準，精確的溫度控制，簡單易操作，乾衣容量5kg。',["ISO 6330","ISO 26330","AATCC 135"],["images/sp/Opti-Dry.png"]],  
+  ['Wascator','Wascator Washer-Extractor','微電腦控制，晶片卡內建標準洗程，操作簡單，最高達999次洗衣行程設定。',["ISO 5077","ISO 6330"],["images/sp/wascator2023.jpg"]],
+  ['OPTI-DRY 標準實驗室乾衣機','OPTI-DRY Laboratory Tumble Dryer','符合各式標準，精確的溫度控制，簡單易操作，乾衣容量5kg。AATCC 推薦使用。',["ISO 6330","ISO 26330","AATCC 135"],["images/sp/Opti-Dry.png"]],  
 ]
 
 /*織物檢驗*/const tp=[
