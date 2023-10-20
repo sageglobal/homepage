@@ -6,18 +6,21 @@ import marquee from './marquee'
 
 /*  ['中文','英文','簡介',[標準],[圖片位置]],*/
 //檢驗儀器設備
-/*織物檢驗*/const tp=[
+/*縮率試驗*/const sp=[
   /*DONT TOUCH THIS LINE*/['','','',[],''],
-  ['萬能拉力試驗機','Universal Testing Machine1','全電腦控制，精確度高，多種夾具及荷重元供選擇，功能性強，可測試紗線、織物 強力、彈性回覆力、布撕裂強度及抗壓縮試驗，符合各式標準。',['ISO 13934-1','ISO 13934-2','ASTM D 4345','ASTM D 3107','ASTM D 4964','ASTM D 5034','ASTMD  5035','BS 3424','BS 4304'],["images/tp/SGT-1.jpg","images/tp/SGT-1-2.jpg"]],
+  ['AATCC M6(T)洗衣機','AATCC Washing Machine','AATCC 推薦使用。',['AATCC 88B','AATCC 88C','AATCC 124','AATCC 135','AATCC 143','AATCC 150','AATCC LP1-2021'],['images/sp/LBT-M6.jpg','images/sp/LABTEX-M6-2.jpg','images/sp/LBT-M6 (2023).jpg']],
+  ['AATCC M6D乾衣機','AATCC Drying Machine','AATCC 推薦使用。',['AATCC 124','AATCC 135','AATCC 143','AATCC 150','AATCC 172','AATCC 179','AATCC 188'],['images/sp/LBT-M6D.png','images/sp/LABTEX-M6D-2.jpg','images/sp/aatccdryerinfo.png']],
+  ['ISO M8洗衣機','ISO washing machine','歐洲原裝機台，觸控式螢幕設計，無須插卡，內建ISO等26個洗程，可自編程式，滿足連續洗、耐久洗等洗衣方式。',['ISO 6330-2021','ISO 19954-2003','AATCC IVA, IVB','DS-034','GB T8629-2017','GB T8630-2013','GB T17596'],['images/sp/LBT-M8.jpg','images/sp/LBT-M8-2.jpg','images/sp/LBT-M8-3.jpg']],
+  ['Wascator程控式水洗縮率試驗機','Wascator Washer-Extractor','微電腦控制，晶片卡內建標準洗程，操作簡單，最高達999次洗衣行程設定。',["ISO 5077","ISO 6330"],["images/sp/wascator2023.jpg"]],
+  ['OPTI-DRY 標準實驗室乾衣機','OPTI-DRY Laboratory Tumble Dryer','符合各式標準，精確的溫度控制，簡單易操作，乾衣容量5kg。',["ISO 6330","ISO 26330","AATCC 135"],["images/sp/Opti-Dry.png"]],  
+]
+
+/*織物檢驗*/const tp=[
+  
+  ['Testometric拉力試驗機','Universal Testing Machine1','全電腦控制，精確度高，多種夾具及荷重元供選擇，功能性強，可測試紗線、織物 強力、彈性回覆力、布撕裂強度及抗壓縮試驗，符合各式標準。',['ISO 13934-1','ISO 13934-2','ASTM D 4345','ASTM D 3107','ASTM D 4964','ASTM D 5034','ASTMD  5035','BS 3424','BS 4304'],["images/tp/SGT-1.jpg","images/tp/SGT-1-2.jpg"]],
   ['Safguard鈕扣拉力試驗機','Safguard','備有各式夾具可供各種不同鈕扣使用',["ASTM F 963","ASTM D 4846-96","EN 71","M&S P115A","M&S P115"],["images/tp/SGT-40.gif"]],
   ['WASHTEC 程控式耐水洗試驗機','WASHTEC Colour Fastness Tester','內建程式大杯及小杯兩用機台。有單、雙槽可供選擇，最大容量達24杯位，符合各式標準。',["ISO 105","AATCC 28","AATCC 61","AATCC 86","AATCC 132","AATCC 151"],["images/tp/Washtec_MK4_Pot_Dispenser_Colour.jpg","images/tp/Washtec_MK4_01.png"]], 
   ['DURAWASH 程控式印花牢度試驗機','DURAWASH The Original Print Durability Tester','內建程式，有單槽及雙槽可供選擇。',['ARCADIA GROUP','BS 7907','CEN TR 16792','M&S C15','M&S P5','M&S P6','M&S P7','M&S P69','NEXT TM8'],['images/tp/DSC_0214.jpg','images/tp/Durawash_&_Plus.jpg']],
-  ['OPTI-DRY 標準實驗室乾衣機','OPTI-DRY Laboratory Tumble Dryer','符合各式標準，精確的溫度控制，簡單易操作，乾衣容量5kg。',["ISO 6330","ISO 26330","AATCC 135"],["images/tp/Opti-Dry.png"]],  
-  ['Wascator程控式水洗縮率試驗機','Wascator Washer-Extractor','微電腦控制，晶片卡內建標準洗程，操作簡單，最高達999次洗衣行程設定。',["ISO 5077","ISO 6330"],["images/tp/SGT-4.jpg"]],
-  ['Miele洗衣機','Miele Washing Machine','Professional系列可程式設定，操作簡單，符合Nike、adidas、PUMA等各品牌規範。',[],["images/tp/SGT-33.gif"]],
-  ['AATCC洗衣機','AATCC Washing Machine','AATCC 推薦使用。符合AATCC M6-2018標準。',['AATCC 88B','AATCC 88C','AATCC 124','AATCC 135','AATCC 143','AATCC 150','NIKE'],['images/tp/LABTEX-M6-1.jpg','images/tp/LABTEX-M6-2.jpg','images/tp/aatccwashinfo.png']],
-  ['AATCC乾衣機','AATCC Drying Machine','AATCC 推薦使用。符合AATCC M6-2018標準。',['AATCC 124','AATCC 135','AATCC 143','AATCC 150','AATCC 172','AATCC 179','AATCC 188','NIKE'],['images/tp/LABTEX-M6D-1.jpg','images/tp/LABTEX-M6D-2.jpg','images/tp/aatccdryerinfo.png']],
-  ['氣冷式氙弧光耐光耐候試驗機','Xenon Arc Light and Weathering Fastness Tester','觸控面板，氣冷式冷卻設計，內建操作規範，操作簡便。',['ISO 105 B02','ISO 105 B04','M&S C9','M&S C9A'],['images/tp/SGT-5.gif']],
   ['簡易型耐光試驗機','Light Fastness Tester','利用500W鎢絲燈模擬日光照射，測試織物的耐光牢度。',["BS 1006 UK/TN"],['images/tp/SGT-6.gif']],
   ['乾洗試驗機','Dry Cleaning Tester','測試織物乾洗色牢度及耐氯水洗試驗，並可做為防火試驗之前處理設備。',['AATCC 162'],['images/tp/SGT-7.gif']],
   ['耐昇華試驗機','Scorch / Sublimation Testers','單片控溫設計，測試織物耐昇華牢度及乾熱試驗。',['ISO 105','JIS L 0850','JIS L 0879','JIS L 0880','JIS L 1041'],['images/tp/SGT-8.gif']],
@@ -130,29 +133,30 @@ import marquee from './marquee'
 //////////////////////////////////////////////////////////////////////////////////////
 
 
-const plist=[tp,yp,fp,op,aatcc,iso,y,oc];
+const plist=[sp,tp,yp,fp,op,aatcc,iso,y,oc];
 let lastpage=0;
 ///////////////////////APP START////////////////////////////////////////////
 function App() {
 ///////////////////////SET VARAIBLES////////////////////////////////////////
-  const [page,setpage]=useState(0);
+  const [page,setpage]=useState(1);
   const [item,setitem]=useState({category:0,index:0});
 
-  const [showlist,setshowlist]=useState(["none","none","none","none","none","none","none","none"]);
+  const [showlist,setshowlist]=useState(["none","none","none","none","none","none","none","none","none"]);
   let user="",email="",phone="",subject="",body="";
   const [sentdata,setsentdata]=useState({user,email,phone,subject,body});
 
   let htmls=(<div></div>);
   let subhtml1,subhtml2;
 
-  const tpli = Array.from({ length: plist[0].length }, (_, index) => index);
-  const ypli = Array.from({ length: plist[1].length }, (_, index) => index);
-  const fpli = Array.from({ length: plist[2].length }, (_, index) => index);
-  const opli = Array.from({ length: plist[3].length }, (_, index) => index);
-  const aatccli = Array.from({ length: plist[4].length }, (_, index) => index);
-  const isoli = Array.from({ length: plist[5].length }, (_, index) => index);
-  const yli = Array.from({ length: plist[6].length }, (_, index) => index);
-  const ocli = Array.from({ length: plist[7].length }, (_, index) => index);
+  const spli = Array.from({ length: plist[0].length }, (_, index) => index);
+  const tpli = Array.from({ length: plist[1].length }, (_, index) => index);
+  const ypli = Array.from({ length: plist[2].length }, (_, index) => index);
+  const fpli = Array.from({ length: plist[3].length }, (_, index) => index);
+  const opli = Array.from({ length: plist[4].length }, (_, index) => index);
+  const aatccli = Array.from({ length: plist[5].length }, (_, index) => index);
+  const isoli = Array.from({ length: plist[6].length }, (_, index) => index);
+  const yli = Array.from({ length: plist[7].length }, (_, index) => index);
+  const ocli = Array.from({ length: plist[8].length }, (_, index) => index);
 
 //////////////////////////////subhtml////////////////////////////////////
   if(page==1){
@@ -181,37 +185,39 @@ function App() {
   
                 <div id="sidebar">
                   <div class="box2">
-  
-                    <div class="title" onClick={()=>{setshowlist([showlist[0]=="none"?"":"none","none","none","none","none","none","none","none"]);}}>
-                      <h2>織物檢驗</h2>
+                    <div class="title" onClick={()=>{setshowlist([showlist[0]=="none"?"":"none","none","none","none","none","none","none","none","none"]);}}>
+                      <h2>縮率試驗</h2>
                     </div>
                     <ul class="style2" style={{display: showlist[0]}} >
-                      {tpli.map(i=>(
-                      <li style={{background:(item.category==0 && item.index==i)&&"#525353"}} onClick={()=>{
-                        window.scrollTo(0,document.getElementById('header').offsetHeight+document.getElementById('productname').offsetTop);
-                        setitem({category:0,index:i});
-                      }}><a style={{color:(item.category==0 && item.index==i)&&"#FFFFFF"}}>{plist[0][i][0]}</a></li>))}
+                      {spli.map(i=>(<li style={{background:(item.category==0 && item.index==i)&&"#525353"}} onClick={()=>{window.scrollTo(0,document.getElementById('header').offsetHeight+document.getElementById('productname').offsetTop);setitem({category:0,index:i});}}><a style={{color:(item.category==0 && item.index==i)&&"#FFFFFF"}}>{plist[0][i][0]}</a></li>))}
+                    </ul>
+
+                    <div class="title" onClick={()=>{setshowlist(["none",showlist[1]=="none"?"":"none","none","none","none","none","none","none","none"]);}}>
+                      <h2>織物檢驗</h2>
+                    </div>
+                    <ul class="style2" style={{display: showlist[1]}} >
+                      {tpli.map(i=>(<li style={{background:(item.category==1 && item.index==i)&&"#525353"}} onClick={()=>{window.scrollTo(0,document.getElementById('header').offsetHeight+document.getElementById('productname').offsetTop);setitem({category:1,index:i});}}><a style={{color:(item.category==1 && item.index==i)&&"#FFFFFF"}}>{plist[1][i][0]}</a></li>))}
                     </ul>
   
-                    <div class="title" onClick={()=>{setshowlist(["none",showlist[1]=="none"?"":"none","none","none","none","none","none","none"]);}}>
+                    <div class="title" onClick={()=>{setshowlist(["none","none",showlist[2]=="none"?"":"none","none","none","none","none","none","none"]);}}>
                       <h2>紗線檢驗</h2>
                     </div>
-                    <ul class="style2" style={{display: showlist[1] }} >
-                      {ypli.map(i=>(<li style={{background:(item.category==1 && item.index==i)&&"#525353"}} onClick={()=>{window.scrollTo(0,document.getElementById('header').offsetHeight+document.getElementById('productname').offsetTop);setitem({category:1,index:i});}}><a style={{color:(item.category==1 && item.index==i)&&"#FFFFFF"}}>{plist[1][i][0]}</a></li>))}
+                    <ul class="style2" style={{display: showlist[2] }} >
+                      {ypli.map(i=>(<li style={{background:(item.category==2 && item.index==i)&&"#525353"}} onClick={()=>{window.scrollTo(0,document.getElementById('header').offsetHeight+document.getElementById('productname').offsetTop);setitem({category:2,index:i});}}><a style={{color:(item.category==2 && item.index==i)&&"#FFFFFF"}}>{plist[2][i][0]}</a></li>))}
                     </ul>
                     
-                    <div class="title" onClick={()=>{setshowlist(["none","none",showlist[2]=="none"?"":"none","none","none","none","none","none"]);}}>
+                    <div class="title" onClick={()=>{setshowlist(["none","none","none",showlist[3]=="none"?"":"none","none","none","none","none","none"]);}}>
                       <h2>纖維檢驗</h2>
                     </div>
-                    <ul class="style2" style={{display: showlist[2] }} >
-                      {fpli.map(i=>(<li style={{background:(item.category==2 && item.index==i)&&"#525353"}} onClick={()=>{window.scrollTo(0,document.getElementById('header').offsetHeight+document.getElementById('productname').offsetTop);setitem({category:2,index:i});}}><a style={{color:(item.category==2 && item.index==i)&&"#FFFFFF"}}>{plist[2][i][0]}</a></li>))}
+                    <ul class="style2" style={{display: showlist[3] }} >
+                      {fpli.map(i=>(<li style={{background:(item.category==3 && item.index==i)&&"#525353"}} onClick={()=>{window.scrollTo(0,document.getElementById('header').offsetHeight+document.getElementById('productname').offsetTop);setitem({category:3,index:i});}}><a style={{color:(item.category==3 && item.index==i)&&"#FFFFFF"}}>{plist[3][i][0]}</a></li>))}
                     </ul>
   
-                    <div class="title" onClick={()=>{setshowlist(["none","none","none",showlist[3]=="none"?"":"none","none","none","none","none"]);}}>
+                    <div class="title" onClick={()=>{setshowlist(["none","none","none","none",showlist[4]=="none"?"":"none","none","none","none","none"]);}}>
                       <h2>其他檢驗</h2>
                     </div>
-                    <ul class="style2" style={{display: showlist[3] }} >
-                      {opli.map(i=>(<li style={{background:(item.category== 3&& item.index==i)&&"#525353"}} onClick={()=>{window.scrollTo(0,document.getElementById('header').offsetHeight+document.getElementById('productname').offsetTop);setitem({category:3,index:i});}}><a style={{color:(item.category==3 && item.index==i)&&"#FFFFFF"}}>{plist[3][i][0]}</a></li>))}
+                    <ul class="style2" style={{display: showlist[4] }} >
+                      {opli.map(i=>(<li style={{background:(item.category==4 && item.index==i)&&"#525353"}} onClick={()=>{window.scrollTo(0,document.getElementById('header').offsetHeight+document.getElementById('productname').offsetTop);setitem({category:4,index:i});}}><a style={{color:(item.category==4 && item.index==i)&&"#FFFFFF"}}>{plist[4][i][0]}</a></li>))}
                     </ul>
   
                   </div>
@@ -239,7 +245,7 @@ function App() {
                   </div>
                   )}
                   <div style={{float:"right", display:"inline"}}>
-                     <img id="logos" src="images/logos.png"></img>
+                  <img id="logos" src="images/logos.png"></img>
                   </div>
                   
                 </div>
@@ -247,37 +253,39 @@ function App() {
                 <div id="sidebar">
                   <div class="box2">
   
-                    <div class="title" onClick={()=>{setshowlist([showlist[0]=="none"?"":"none","none","none","none","none","none","none","none"]);}}>
-                      <h2>織物檢驗</h2>
+                    <div class="title" onClick={()=>{setshowlist([showlist[0]=="none"?"":"none","none","none","none","none","none","none","none","none"]);}}>
+                      <h2>縮率試驗</h2>
                     </div>
                     <ul class="style2" style={{display: showlist[0]}} >
-                      {tpli.map(i=>(
-                      <li onClick={()=>{
-                        window.scrollTo(0,document.getElementById('header').offsetHeight+document.getElementById('productname').offsetTop);
-                        setitem({category:0,index:i});
-                        lastpage=1;
-                      }}><a>{plist[0][i][0]}</a></li>))}
+                      {spli.map(i=>(<li onClick={()=>{window.scrollTo(0,document.getElementById('header').offsetHeight+document.getElementById('productname').offsetTop);setitem({category:0,index:i});lastpage=1;}}><a>{plist[0][i][0]}</a></li>))}
+                    </ul>
+
+                    <div class="title" onClick={()=>{setshowlist(["none",showlist[1]=="none"?"":"none","none","none","none","none","none","none","none"]);}}>
+                      <h2>織物檢驗</h2>
+                    </div>
+                    <ul class="style2" style={{display: showlist[1]}} >
+                      {tpli.map(i=>(<li onClick={()=>{window.scrollTo(0,document.getElementById('header').offsetHeight+document.getElementById('productname').offsetTop);setitem({category:1,index:i});lastpage=1;}}><a>{plist[1][i][0]}</a></li>))}
                     </ul>
   
-                    <div class="title" onClick={()=>{setshowlist(["none",showlist[1]=="none"?"":"none","none","none","none","none","none","none"]);}}>
+                    <div class="title" onClick={()=>{setshowlist(["none","none",showlist[2]=="none"?"":"none","none","none","none","none","none","none"]);}}>
                       <h2>紗線檢驗</h2>
                     </div>
-                    <ul class="style2" style={{display: showlist[1] }} >
-                      {ypli.map(i=>(<li onClick={()=>{window.scrollTo(0,document.getElementById('header').offsetHeight+document.getElementById('productname').offsetTop);lastpage=1;setitem({category:1,index:i});}}><a>{plist[1][i][0]}</a></li>))}
+                    <ul class="style2" style={{display: showlist[2] }} >
+                      {ypli.map(i=>(<li onClick={()=>{window.scrollTo(0,document.getElementById('header').offsetHeight+document.getElementById('productname').offsetTop);lastpage=1;setitem({category:2,index:i});}}><a>{plist[2][i][0]}</a></li>))}
                     </ul>
   
-                    <div class="title" onClick={()=>{setshowlist(["none","none",showlist[2]=="none"?"":"none","none","none","none","none","none"]);}}>
+                    <div class="title" onClick={()=>{setshowlist(["none","none","none",showlist[3]=="none"?"":"none","none","none","none","none","none"]);}}>
                       <h2>纖維檢驗</h2>
                     </div>
-                    <ul class="style2" style={{display: showlist[2] }} >
-                      {fpli.map(i=>(<li onClick={()=>{window.scrollTo(0,document.getElementById('header').offsetHeight+document.getElementById('productname').offsetTop);lastpage=1;setitem({category:2,index:i});}}><a>{plist[2][i][0]}</a></li>))}
+                    <ul class="style2" style={{display: showlist[3] }} >
+                      {fpli.map(i=>(<li onClick={()=>{window.scrollTo(0,document.getElementById('header').offsetHeight+document.getElementById('productname').offsetTop);lastpage=1;setitem({category:3,index:i});}}><a>{plist[3][i][0]}</a></li>))}
                     </ul>
   
-                    <div class="title" onClick={()=>{setshowlist(["none","none","none",showlist[3]=="none"?"":"none","none","none","none","none"]);}}>
+                    <div class="title" onClick={()=>{setshowlist(["none","none","none","none",showlist[4]=="none"?"":"none","none","none","none","none"]);}}>
                       <h2>其他檢驗</h2>
                     </div>
-                    <ul class="style2" style={{display: showlist[3] }} >
-                      {opli.map(i=>(<li onClick={()=>{window.scrollTo(0,document.getElementById('header').offsetHeight+document.getElementById('productname').offsetTop);lastpage=1;setitem({category:3,index:i});}}><a>{plist[3][i][0]}</a></li>))}
+                    <ul class="style2" style={{display: showlist[4] }} >
+                      {opli.map(i=>(<li onClick={()=>{window.scrollTo(0,document.getElementById('header').offsetHeight+document.getElementById('productname').offsetTop);lastpage=1;setitem({category:4,index:i});}}><a>{plist[4][i][0]}</a></li>))}
                     </ul>
   
                   </div>
@@ -322,32 +330,32 @@ function App() {
           <div id="sidebar">
             <div class="box2">
       
-              <div class="title" onClick={()=>{setshowlist(["none","none","none","none",showlist[4]=="none"?"":"none","none","none","none"]);}}>
+              <div class="title" onClick={()=>{setshowlist(["none","none","none","none","none",showlist[5]=="none"?"":"none","none","none","none"]);}}>
                 <h2>AATCC</h2>
               </div>
-              <ul class="style2" style={{display: showlist[4] }} >
-                {aatccli.map(i=>(<li style={{background:(item.category==4 && item.index==i)&&"#525353"}} onClick={()=>{window.scrollTo(0,document.getElementById('header').offsetHeight+document.getElementById('productname').offsetTop);setitem({category:4,index:i});}}><a style={{color:(item.category==4 && item.index==i)&&"#FFFFFF"}}>{plist[4][i][0]}</a></li>))}
+              <ul class="style2" style={{display: showlist[5] }} >
+                {aatccli.map(i=>(<li style={{background:(item.category==5 && item.index==i)&&"#525353"}} onClick={()=>{window.scrollTo(0,document.getElementById('header').offsetHeight+document.getElementById('productname').offsetTop);setitem({category:5,index:i});}}><a style={{color:(item.category==5 && item.index==i)&&"#FFFFFF"}}>{plist[5][i][0]}</a></li>))}
               </ul>
       
-              <div class="title" onClick={()=>{setshowlist(["none","none","none","none","none",showlist[5]=="none"?"":"none","none","none"]);}}>
+              <div class="title" onClick={()=>{setshowlist(["none","none","none","none","none","none",showlist[6]=="none"?"":"none","none","none"]);}}>
                 <h2>ISO</h2>
               </div>
-              <ul class="style2" style={{display: showlist[5] }} >
-                {isoli.map(i=>(<li style={{background:(item.category==5 && item.index==i)&&"#525353"}} onClick={()=>{window.scrollTo(0,document.getElementById('header').offsetHeight+document.getElementById('productname').offsetTop);setitem({category:5,index:i});}}><a style={{color:(item.category==5 && item.index==i)&&"#FFFFFF"}}>{plist[5][i][0]}</a></li>))}
+              <ul class="style2" style={{display: showlist[6] }} >
+                {isoli.map(i=>(<li style={{background:(item.category==6 && item.index==i)&&"#525353"}} onClick={()=>{window.scrollTo(0,document.getElementById('header').offsetHeight+document.getElementById('productname').offsetTop);setitem({category:6,index:i});}}><a style={{color:(item.category==6 && item.index==i)&&"#FFFFFF"}}>{plist[6][i][0]}</a></li>))}
               </ul>
       
-              <div class="title" onClick={()=>{setshowlist(["none","none","none","none","none","none",showlist[6]=="none"?"":"none","none"]);}}>
+              <div class="title" onClick={()=>{setshowlist(["none","none","none","none","none","none","none",showlist[7]=="none"?"":"none","none"]);}}>
                 <h2>黃化試驗</h2>
               </div>
-              <ul class="style2" style={{display: showlist[6] }} >
-                {yli.map(i=>(<li style={{background:(item.category==6 && item.index==i)&&"#525353"}} onClick={()=>{window.scrollTo(0,document.getElementById('header').offsetHeight+document.getElementById('productname').offsetTop);setitem({category:6,index:i});}}><a style={{color:(item.category==6 && item.index==i)&&"#FFFFFF"}}>{plist[6][i][0]}</a></li>))}
+              <ul class="style2" style={{display: showlist[7] }} >
+                {yli.map(i=>(<li style={{background:(item.category==7 && item.index==i)&&"#525353"}} onClick={()=>{window.scrollTo(0,document.getElementById('header').offsetHeight+document.getElementById('productname').offsetTop);setitem({category:7,index:i});}}><a style={{color:(item.category==7 && item.index==i)&&"#FFFFFF"}}>{plist[7][i][0]}</a></li>))}
               </ul>
       
-              <div class="title" onClick={()=>{setshowlist(["none","none","none","none","none","none","none",showlist[7]=="none"?"":"none"]);}}>
+              <div class="title" onClick={()=>{setshowlist(["none","none","none","none","none","none","none","none",showlist[8]=="none"?"":"none"]);}}>
                 <h2>其他耗材</h2>
               </div>
-              <ul class="style2" style={{display: showlist[7] }} >
-                {ocli.map(i=>(<li style={{background:(item.category==7 && item.index==i)&&"#525353"}} onClick={()=>{window.scrollTo(0,document.getElementById('header').offsetHeight+document.getElementById('productname').offsetTop);setitem({category:7,index:i});}}><a style={{color:(item.category==7 && item.index==i)&&"#FFFFFF"}}>{plist[7][i][0]}</a></li>))}
+              <ul class="style2" style={{display: showlist[8] }} >
+                {ocli.map(i=>(<li style={{background:(item.category==8 && item.index==i)&&"#525353"}} onClick={()=>{window.scrollTo(0,document.getElementById('header').offsetHeight+document.getElementById('productname').offsetTop);setitem({category:8,index:i});}}><a style={{color:(item.category==8 && item.index==i)&&"#FFFFFF"}}>{plist[8][i][0]}</a></li>))}
               </ul>
       
             </div>
@@ -390,32 +398,32 @@ function App() {
           <div id="sidebar">
             <div class="box2">
       
-              <div class="title" onClick={()=>{setshowlist(["none","none","none","none",showlist[4]=="none"?"":"none","none","none","none"]);}}>
+              <div class="title" onClick={()=>{setshowlist(["none","none","none","none","none",showlist[5]=="none"?"":"none","none","none","none"]);}}>
                 <h2>AATCC</h2>
               </div>
-              <ul class="style2" style={{display: showlist[4] }} >
-                {aatccli.map(i=>(<li onClick={()=>{window.scrollTo(0,document.getElementById('header').offsetHeight+document.getElementById('productname').offsetTop);lastpage=2;setitem({category:4,index:i});}}><a>{plist[4][i][0]}</a></li>))}
+              <ul class="style2" style={{display: showlist[5] }} >
+                {aatccli.map(i=>(<li onClick={()=>{window.scrollTo(0,document.getElementById('header').offsetHeight+document.getElementById('productname').offsetTop);lastpage=2;setitem({category:5,index:i});}}><a>{plist[5][i][0]}</a></li>))}
               </ul>
       
-              <div class="title" onClick={()=>{setshowlist(["none","none","none","none","none",showlist[5]=="none"?"":"none","none","none"]);}}>
+              <div class="title" onClick={()=>{setshowlist(["none","none","none","none","none","none",showlist[6]=="none"?"":"none","none","none"]);}}>
                 <h2>ISO</h2>
               </div>
-              <ul class="style2" style={{display: showlist[5] }} >
-                {isoli.map(i=>(<li onClick={()=>{window.scrollTo(0,document.getElementById('header').offsetHeight+document.getElementById('productname').offsetTop);lastpage=2;setitem({category:5,index:i});}}><a>{plist[5][i][0]}</a></li>))}
+              <ul class="style2" style={{display: showlist[6] }} >
+                {isoli.map(i=>(<li onClick={()=>{window.scrollTo(0,document.getElementById('header').offsetHeight+document.getElementById('productname').offsetTop);lastpage=2;setitem({category:6,index:i});}}><a>{plist[6][i][0]}</a></li>))}
               </ul>
       
-              <div class="title" onClick={()=>{setshowlist(["none","none","none","none","none","none",showlist[6]=="none"?"":"none","none"]);}}>
+              <div class="title" onClick={()=>{setshowlist(["none","none","none","none","none","none","none",showlist[7]=="none"?"":"none","none"]);}}>
                 <h2>黃化試驗</h2>
               </div>
-              <ul class="style2" style={{display: showlist[6] }} >
-                {yli.map(i=>(<li onClick={()=>{window.scrollTo(0,document.getElementById('header').offsetHeight+document.getElementById('productname').offsetTop);lastpage=2;setitem({category:6,index:i});}}><a>{plist[6][i][0]}</a></li>))}
+              <ul class="style2" style={{display: showlist[7] }} >
+                {yli.map(i=>(<li onClick={()=>{window.scrollTo(0,document.getElementById('header').offsetHeight+document.getElementById('productname').offsetTop);lastpage=2;setitem({category:7,index:i});}}><a>{plist[7][i][0]}</a></li>))}
               </ul>
       
-              <div class="title" onClick={()=>{setshowlist(["none","none","none","none","none","none","none",showlist[7]=="none"?"":"none"]);}}>
+              <div class="title" onClick={()=>{setshowlist(["none","none","none","none","none","none","none","none",showlist[8]=="none"?"":"none"]);}}>
                 <h2>其他耗材</h2>
               </div>
-              <ul class="style2" style={{display: showlist[7] }} >
-                {ocli.map(i=>(<li onClick={()=>{window.scrollTo(0,document.getElementById('header').offsetHeight+document.getElementById('productname').offsetTop);lastpage=2;setitem({category:7,index:i});}}><a>{plist[7][i][0]}</a></li>))}
+              <ul class="style2" style={{display: showlist[8] }} >
+                {ocli.map(i=>(<li onClick={()=>{window.scrollTo(0,document.getElementById('header').offsetHeight+document.getElementById('productname').offsetTop);lastpage=2;setitem({category:8,index:i});}}><a>{plist[8][i][0]}</a></li>))}
               </ul>
       
             </div>
