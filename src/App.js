@@ -25,7 +25,7 @@ import marquee from './marquee'
   ['簡易型耐光試驗機','Light Fastness Tester','利用500W鎢絲燈模擬日光照射，測試織物的耐光牢度。',["BS 1006 UK/TN"],['images/tp/SGT-6.gif']],
   ['乾洗試驗機','Dry Cleaning Tester','測試織物乾洗色牢度及耐氯水洗試驗，並可做為防火試驗之前處理設備。',['AATCC 162'],['images/tp/SGT-7.gif']],
   ['耐昇華試驗機','Scorch / Sublimation Testers','單片控溫設計，測試織物耐昇華牢度及乾熱試驗。',['ISO 105','JIS L 0850','JIS L 0879','JIS L 0880','JIS L 1041'],['images/tp/SGT-8.gif']],
-  ['桌上型熱燙收縮試驗機','Portable Fusing Heating Machine','電子式時間設定，最高壓力可達0.33kg/cm² <br> 工作尺寸 50×50 cm²',[],['images/tp/SGCP-5050.jpg']],
+  ['桌上型熱燙收縮試驗機','Portable Fusing Heating Machine','電子式時間設定，最高壓力可達0.33kg/cm²，工作尺寸 50×50 cm²',[],['images/tp/SGCP-5050.jpg']],
   ['乾熱收縮(熱壓牢度)試驗機','CONTACT HEAT-Thermal Stability Test Colour fastness to hot pressing','利用熱燙板平均施壓於織物上，測試織物的熱收縮性及熱壓色牢度。',['ISO 105X11','M&S P10'],['images/tp/contact-heat-thermal-stability-test-533x426.png']],
   ['蒸氣收縮試驗機','Wira Steaming Cylinder','快速測試織物蒸氣收縮情形，操作簡單安全。',['ISO 3005:1978','BS 4323:1979[1995]','IWTO-299-76[E]','M&S P8'],['images/tp/SGT-38.gif']],
   ['織物硬挺度試驗','Fabric Stiffness Tester','氣動定壓式設計，可瞬間紀錄測試數據。',['ASTM D 4032'],['images/tp/SGT-34.gif']],
