@@ -94,8 +94,8 @@ import marquee from './marquee'
   
 //消耗性材料
 /*AATCC*/const aatcc=[
-  ['美規六種纖維水洗附布','AATCC MULTIFIBER FABRIC #10',[`布寬: 34" (每種纖維寬1cm)`],[['SPUN ACETATE','聚酯纖維'],['BLEACH COTTON','棉'],['SPUN NYLON','尼龍'],['SPUN POLYESTER','聚酯'],['ACRYLIC','亞克力'],['WORSTED WOOL','羊毛']],['images/th/DSC00309.jpg']],
-  ['美規六種纖維水洗附布(NIKE專用)','AATCC MULTIFIBER FABRIC #10A',['布寬: 34"(每種纖維寬1.5cm)'],[['SPUN ACETATE','醋酸纖維'],['BLEACH COTTON','棉'],['SPUN NYLON','尼龍'],['SPUN POLYESTER','聚酯'],['ACRYLIC','亞克力'],['WORSTED WOOL','羊毛']],['images/th/DSC00356.jpg']],
+  ['#10六種纖維水洗附布','AATCC MULTIFIBER FABRIC #10',[`布寬: 34" (每種纖維寬1cm)`],[['SPUN ACETATE','聚酯纖維'],['BLEACH COTTON','棉'],['SPUN NYLON','尼龍'],['SPUN POLYESTER','聚酯'],['ACRYLIC','亞克力'],['WORSTED WOOL','羊毛']],['images/th/DSC00309.jpg']],
+  ['#10A六種纖維水洗附布(NIKE專用)','AATCC MULTIFIBER FABRIC #10A',['布寬: 34"(每種纖維寬1.5cm)'],[['SPUN ACETATE','醋酸纖維'],['BLEACH COTTON','棉'],['SPUN NYLON','尼龍'],['SPUN POLYESTER','聚酯'],['ACRYLIC','亞克力'],['WORSTED WOOL','羊毛']],['images/th/DSC00356.jpg']],
   ['美規摩擦附布','AATCC CROCK CLOTH',['1000 片/盒','45"幅寬，5 m/pack'],[],['images/th/DSC00355.jpg']],
   ['美國陪洗布','AATCC DUMMY III',['16 pcs/包'],[],['images/th/DSC00313.jpg']],
   ['WOB清潔劑','AATCC WOB DETERGENT',['2 lb/包','24 lb/桶'],[],['images/th/DSC00344.jpg']],
