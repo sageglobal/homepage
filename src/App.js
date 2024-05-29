@@ -12,6 +12,7 @@ import marquee from './marquee'
   ['AATCC M6D乾衣機','AATCC Drying Machine','AATCC 推薦使用。',['AATCC 124','AATCC 135','AATCC 143','AATCC 150','AATCC 172','AATCC 179','AATCC 188'],['images/sp/LBT-M6D.png','images/sp/LABTEX-M6D-2.jpg','images/sp/aatccdryerinfo.png']],
   ['ISO M8洗衣機','ISO washing machine','歐洲原裝機台，觸控式螢幕設計，無須插卡，內建ISO等26個洗程，可自編程式，滿足連續洗、耐久洗等洗衣方式。',['ISO 6330-2021','ISO 19954-2003','AATCC IVA, IVB','DS-034','GB T8629-2017','GB T8630-2013','GB T17596'],['images/sp/LBT-M8.jpg','images/sp/LBT-M8-2.jpg','images/sp/LBT-M8-3.jpg']],
   ['Wascator','Wascator Washer-Extractor','微電腦控制，晶片卡內建標準洗程，操作簡單，最高達999次洗衣行程設定。',["ISO 5077","ISO 6330"],["images/sp/wascator2023.jpg"]],
+  ['Miele PWM 908 洗衣機','Miele PWM 908 Washing machine','Nike 專用洗衣機',[],["images/sp/Miele-PWM-908.jpg"]],
   ['OPTI-DRY 標準實驗室乾衣機','OPTI-DRY Laboratory Tumble Dryer','符合各式標準，精確的溫度控制，簡單易操作，乾衣容量5kg。AATCC 推薦使用。',["ISO 6330","ISO 26330","AATCC 135"],["images/sp/Opti-Dry.png"]],  
 ]
 
@@ -24,7 +25,7 @@ import marquee from './marquee'
   ['簡易型耐光試驗機','Light Fastness Tester','利用500W鎢絲燈模擬日光照射，測試織物的耐光牢度。',["BS 1006 UK/TN"],['images/tp/SGT-6.gif']],
   ['乾洗試驗機','Dry Cleaning Tester','測試織物乾洗色牢度及耐氯水洗試驗，並可做為防火試驗之前處理設備。',['AATCC 162'],['images/tp/SGT-7.gif']],
   ['耐昇華試驗機','Scorch / Sublimation Testers','單片控溫設計，測試織物耐昇華牢度及乾熱試驗。',['ISO 105','JIS L 0850','JIS L 0879','JIS L 0880','JIS L 1041'],['images/tp/SGT-8.gif']],
-  ['全自動乾溼熱燙縮試驗機','Automatic Test-press Machine','利用蒸氣及電熱功能，測試織物乾、濕式縮率試驗',['JIS L 1042 (H1~H4)'],['images/tp/SGT-9.jpg']],
+  ['桌上型熱燙收縮試驗機','Portable Fusing Heating Machine','電子式時間設定，最高壓力可達0.33kg/cm²，工作尺寸 50×50 cm²',[],['images/tp/SGCP-5050.jpg']],
   ['乾熱收縮(熱壓牢度)試驗機','CONTACT HEAT-Thermal Stability Test Colour fastness to hot pressing','利用熱燙板平均施壓於織物上，測試織物的熱收縮性及熱壓色牢度。',['ISO 105X11','M&S P10'],['images/tp/contact-heat-thermal-stability-test-533x426.png']],
   ['蒸氣收縮試驗機','Wira Steaming Cylinder','快速測試織物蒸氣收縮情形，操作簡單安全。',['ISO 3005:1978','BS 4323:1979[1995]','IWTO-299-76[E]','M&S P8'],['images/tp/SGT-38.gif']],
   ['織物硬挺度試驗','Fabric Stiffness Tester','氣動定壓式設計，可瞬間紀錄測試數據。',['ASTM D 4032'],['images/tp/SGT-34.gif']],
@@ -93,8 +94,8 @@ import marquee from './marquee'
   
 //消耗性材料
 /*AATCC*/const aatcc=[
-  ['美規六種纖維水洗附布','AATCC MULTIFIBER FABRIC #10',[`布寬: 34" (每種纖維寬1cm)`],[['SPUN ACETATE','聚酯纖維'],['BLEACH COTTON','棉'],['SPUN NYLON','尼龍'],['SPUN POLYESTER','聚酯'],['ACRYLIC','亞克力'],['WORSTED WOOL','羊毛']],['images/th/DSC00309.jpg']],
-  ['美規六種纖維水洗附布(NIKE專用)','AATCC MULTIFIBER FABRIC #10A',['布寬: 34"(每種纖維寬1.5cm)'],[['SPUN ACETATE','醋酸纖維'],['BLEACH COTTON','棉'],['SPUN NYLON','尼龍'],['SPUN POLYESTER','聚酯'],['ACRYLIC','亞克力'],['WORSTED WOOL','羊毛']],['images/th/DSC00356.jpg']],
+  ['#10六種纖維水洗附布','AATCC MULTIFIBER FABRIC #10',[`布寬: 34" (每種纖維寬1cm)`],[['SPUN ACETATE','聚酯纖維'],['BLEACH COTTON','棉'],['SPUN NYLON','尼龍'],['SPUN POLYESTER','聚酯'],['ACRYLIC','亞克力'],['WORSTED WOOL','羊毛']],['images/th/DSC00309.jpg']],
+  ['#10A六種纖維水洗附布(NIKE專用)','AATCC MULTIFIBER FABRIC #10A',['布寬: 34"(每種纖維寬1.5cm)'],[['SPUN ACETATE','醋酸纖維'],['BLEACH COTTON','棉'],['SPUN NYLON','尼龍'],['SPUN POLYESTER','聚酯'],['ACRYLIC','亞克力'],['WORSTED WOOL','羊毛']],['images/th/DSC00356.jpg']],
   ['美規摩擦附布','AATCC CROCK CLOTH',['1000 片/盒','45"幅寬，5 m/pack'],[],['images/th/DSC00355.jpg']],
   ['美國陪洗布','AATCC DUMMY III',['16 pcs/包'],[],['images/th/DSC00313.jpg']],
   ['WOB清潔劑','AATCC WOB DETERGENT',['2 lb/包','24 lb/桶'],[],['images/th/DSC00344.jpg']],
