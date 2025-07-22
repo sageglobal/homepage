@@ -1,2 +1,2 @@
-const mytext = `感謝，發發紡織訂購實驗室全套設備 / YKK訂購ISO M8洗衣機 & WASHTEC水洗牢度機 / 立泰特殊印刷訂購ISO M8洗衣機 / 台灣百和訂購AATCC M6T洗衣機及OPTI-DRY乾衣機2台 / 福懋興業訂購OPTI-DRY乾衣機 / 京昇紡織訂購WASHTEC 水洗牢度機 / 全有織造訂購OPTI-DRY乾衣機`;
+const mytext = `感謝，福懋興業訂購AATCC M6T洗衣機/ 驊紘實業訂購AATCC M6洗衣機、M6D乾衣機／光隆實業訂購AATCC M6洗衣機 / 印尼PT. SIPATEX訂購AATCC M6洗衣機、M6D乾衣機`;
 export default mytext ;
