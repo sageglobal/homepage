@@ -1,2 +1,2 @@
-const mytext = `感謝，福懋興業訂購AATCC M6洗衣機/ 驊紘實業訂購AATCC M6洗衣機、M6D乾衣機／百美貼台灣訂購AATCC M6洗衣機 / 全業(越南)訂購ISO M8洗衣機 2台、OPTI-DRY烘乾機 2台 / 全國公證訂購AATCC M6T洗衣機2台、MIELE PWM906、OPTI-DRY烘乾機 / 福懋同奈訂購熱燙收縮機BCG-A80`;
+const mytext = `感謝，福懋興業訂購AATCC M6T洗衣機/ 鑫聖實業訂購AATCC M6洗衣機、AATCC M6D 烘乾機`;
 export default mytext ;
