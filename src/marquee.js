@@ -1,2 +1,2 @@
-const mytext = `感謝，福懋興業訂購AATCC M6T洗衣機/ 鑫聖實業訂購AATCC M6洗衣機、AATCC M6D 烘乾機`;
+const mytext = `感謝，維明化工訂購BUNDESMANN(DAIEI) / 遠東新世紀簽訂儀器定保合約`;
 export default mytext ;
